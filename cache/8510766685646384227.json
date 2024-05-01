@@ -1,0 +1,167 @@
+{
+    "prompt": "Given the ar sentence: \"في يوم ما، كان لدي قميص أزرق، وقميص أحمر، وتيشرت أخضر، وتيشرت أصفر. ثم سُئلت عن عدد الأكواب التي كانت لدي. كان لدي أربعة أكواب. بعد ذلك، سُئلت عن عدد السندويشات التي كانت لدي. كان لدي خمسة سندويشات.\", provide a phonetics phonetics breakdown for each word or character. Treat space and punctuation as a part. Keep duplicated part also in the list. Format the output in JSON structure as shown below:\n\n```json\n{\n  \"pairs\": [\n    {\n      \"part\": \"Example word or character\",\n      \"phonetic\": \"Example phonetic representation\"\n    }\n  ]\n}\n```",
+    "response": {
+        "pairs": [
+            {
+                "part": "في",
+                "phonetic": "fee"
+            },
+            {
+                "part": " ",
+                "phonetic": "space"
+            },
+            {
+                "part": "يوم",
+                "phonetic": "yawm"
+            },
+            {
+                "part": "ما،",
+                "phonetic": "ma,"
+            },
+            {
+                "part": "كان",
+                "phonetic": "kaan"
+            },
+            {
+                "part": "لدي",
+                "phonetic": "ladaee"
+            },
+            {
+                "part": "قميص",
+                "phonetic": "qamees"
+            },
+            {
+                "part": "أزرق،",
+                "phonetic": "azraq,"
+            },
+            {
+                "part": "و",
+                "phonetic": "wa"
+            },
+            {
+                "part": "قميص",
+                "phonetic": "qamees"
+            },
+            {
+                "part": "أحمر،",
+                "phonetic": "ahmar,"
+            },
+            {
+                "part": "وتيشرت",
+                "phonetic": "wat-shirt"
+            },
+            {
+                "part": "أخضر،",
+                "phonetic": "akhdar,"
+            },
+            {
+                "part": "وتيشرت",
+                "phonetic": "wat-shirt"
+            },
+            {
+                "part": "أصفر.",
+                "phonetic": "asfar."
+            },
+            {
+                "part": "ثم",
+                "phonetic": "thumma"
+            },
+            {
+                "part": "سُئلت",
+                "phonetic": "su'iltu"
+            },
+            {
+                "part": "عن",
+                "phonetic": "‘an"
+            },
+            {
+                "part": "عدد",
+                "phonetic": "‘add"
+            },
+            {
+                "part": "الأكواب",
+                "phonetic": "al-akwab"
+            },
+            {
+                "part": "التي",
+                "phonetic": "allatee"
+            },
+            {
+                "part": "كانت",
+                "phonetic": "kaanat"
+            },
+            {
+                "part": "لدي.",
+                "phonetic": "ladaee."
+            },
+            {
+                "part": "كان",
+                "phonetic": "kaan"
+            },
+            {
+                "part": "لدي",
+                "phonetic": "ladaee"
+            },
+            {
+                "part": "أربعة",
+                "phonetic": "arba‘a"
+            },
+            {
+                "part": "أكواب.",
+                "phonetic": "akwab."
+            },
+            {
+                "part": "بعد",
+                "phonetic": "ba‘ad"
+            },
+            {
+                "part": "ذلك،",
+                "phonetic": "dhalk,"
+            },
+            {
+                "part": "سُئلت",
+                "phonetic": "su'iltu"
+            },
+            {
+                "part": "عن",
+                "phonetic": "‘an"
+            },
+            {
+                "part": "عدد",
+                "phonetic": "‘add"
+            },
+            {
+                "part": "السندويشات",
+                "phonetic": "alsandaweechat"
+            },
+            {
+                "part": "التي",
+                "phonetic": "allatee"
+            },
+            {
+                "part": "كانت",
+                "phonetic": "kaanat"
+            },
+            {
+                "part": "لدي.",
+                "phonetic": "ladaee."
+            },
+            {
+                "part": "كان",
+                "phonetic": "kaan"
+            },
+            {
+                "part": "لدي",
+                "phonetic": "ladaee"
+            },
+            {
+                "part": "خمسة",
+                "phonetic": "khamsa"
+            },
+            {
+                "part": "سندويشات.",
+                "phonetic": "sandaweechat."
+            }
+        ]
+    }
+}

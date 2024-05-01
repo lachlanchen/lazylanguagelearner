@@ -1,0 +1,158 @@
+{
+    "prompt": "Given this Japanese text: 青い \tシャツ\\\\nあおい\tシャツ\\\\naoi\tshatsu\\\\n赤い\tシャツ\\\\nあかい\tシャツ\\\\nakai\tshatsu\\\\n緑\tの\tTシャツ\\\\nみどり\tの \tTシャツ\\\\nmidori\tno\tTshatsu\\\\n黄色\tの\tTシャツ\\\\nきいろ\tの \tTシャツ\\\\nkiiro\tno\tTshatsu21\t カップ \tを \t何個 \t持って \tいますか。\\\\nカップ\tを \tなんこ \tもって \tいますか。\\\\nkappu\to\tnanko\tmotte\timasuka.\\\\n四個\t持って \tいます。\\\\nよんこ\tもって \tいます。\\\\nyonko\tmotte\timasu.\\\\nサンドイッチ \tを \t何個 \t持って \tいますか。\\\\nサンドイッチ \tを \tなんこ \tもって \tいますか。\\\\nsandoicchi \to\tnanko\tmotte\timasuka.\\\\n五個\t持って \tいます。\\\\nごこ\tもって \tいます。\\\\ngoko\tmotte\timasu.\n\nCould you write a Japanese sentence and tranlate it to English, Arabic, Chinese, and Cantonese with pronunciation? Breakdown the sentences into a complete list phonetic pairs for each character or word in  each language.The output should be in JSON format: \n\n```json\n{\n  \"japanese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"english\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"arabic\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"chinese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"cantonese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "japanese": {
+            "sentence": "この青いシャツはとてもきれいです。",
+            "phonetics_pairs": [
+                {
+                    "part": "この",
+                    "furigana": "この"
+                },
+                {
+                    "part": "青い",
+                    "furigana": "あおい"
+                },
+                {
+                    "part": "シャツ",
+                    "furigana": "シャツ"
+                },
+                {
+                    "part": "は",
+                    "furigana": "は"
+                },
+                {
+                    "part": "とても",
+                    "furigana": "とても"
+                },
+                {
+                    "part": "きれい",
+                    "furigana": "きれい"
+                },
+                {
+                    "part": "です",
+                    "furigana": "です"
+                }
+            ]
+        },
+        "english": {
+            "sentence": "This blue shirt is very pretty.",
+            "phonetics_pairs": [
+                {
+                    "part": "This",
+                    "phonetics": "ðɪs"
+                },
+                {
+                    "part": "blue",
+                    "phonetics": "bluː"
+                },
+                {
+                    "part": "shirt",
+                    "phonetics": "ʃɜːrt"
+                },
+                {
+                    "part": "is",
+                    "phonetics": "ɪz"
+                },
+                {
+                    "part": "very",
+                    "phonetics": "ˈvɛri"
+                },
+                {
+                    "part": "pretty",
+                    "phonetics": "ˈprɪti"
+                }
+            ]
+        },
+        "arabic": {
+            "sentence": "هذا القميص الأزرق جميل جدًا.",
+            "phonetics_pairs": [
+                {
+                    "part": "هذا",
+                    "phonetics": "haadhaa"
+                },
+                {
+                    "part": "القميص",
+                    "phonetics": "alqameeṣ"
+                },
+                {
+                    "part": "الأزرق",
+                    "phonetics": "al'azraq"
+                },
+                {
+                    "part": "جميل",
+                    "phonetics": "jameel"
+                },
+                {
+                    "part": "جدًا",
+                    "phonetics": "jiddan"
+                }
+            ]
+        },
+        "chinese": {
+            "sentence": "这件蓝色的衬衫很漂亮。",
+            "phonetics_pairs": [
+                {
+                    "part": "这",
+                    "pinyin": "zhè"
+                },
+                {
+                    "part": "件",
+                    "pinyin": "jiàn"
+                },
+                {
+                    "part": "蓝色",
+                    "pinyin": "lán sè"
+                },
+                {
+                    "part": "的",
+                    "pinyin": "de"
+                },
+                {
+                    "part": "衬衫",
+                    "pinyin": "chèn shān"
+                },
+                {
+                    "part": "很",
+                    "pinyin": "hěn"
+                },
+                {
+                    "part": "漂亮",
+                    "pinyin": "piào liang"
+                }
+            ]
+        },
+        "cantonese": {
+            "sentence": "呢件藍色嘅恤衫好靚。",
+            "phonetics_pairs": [
+                {
+                    "part": "呢",
+                    "jyutping": "ni1"
+                },
+                {
+                    "part": "件",
+                    "jyutping": "gin6"
+                },
+                {
+                    "part": "藍色",
+                    "jyutping": "laam4 sik1"
+                },
+                {
+                    "part": "嘅",
+                    "jyutping": "ge3"
+                },
+                {
+                    "part": "恤衫",
+                    "jyutping": "seot1 saam1"
+                },
+                {
+                    "part": "好",
+                    "jyutping": "hou2"
+                },
+                {
+                    "part": "靚",
+                    "jyutping": "leng3"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "prompt": "Given the ja sentence: \"ある<日>[]、<私>[]は<青>[]い<シャツ>[]、<赤>[]い<シャツ>[]、<緑>[]のT<シャツ>[]、<黄色>[]のT<シャツ>[]を<持>[]っていました。そして、<私>[]は<カップ>[]を<何個持>[]っていますかと<尋>[]ねられました。<カップ>[]は<四個持>[]っています。<次>[]に、<サンドイッチ>[]を<何個持>[]っていますかと<尋>[]ねられました。<サンドイッチ>[]は<五個持>[]っています。\", provide a furigana phonetics breakdown for each word or character. Treat space and punctuation as a part. Keep duplicated part also in the list. Fill the furigana inside the brackets [] for  <kanji or katakana> inside angle brackets and provide the updated result in 'full' key. Assure the join of part is exactly the full sentence. Format the output in JSON structure as shown below:\n\n```json\n{\n  \"full\": \"{sentence}\",\n  \"pairs\": [\n    {\n      \"part\": \"Example word or character\",\n      \"phonetic\": \"Example phonetic representation\"\n    }\n  ]\n}\n```",
+    "response": {
+        "full": "ある<日>[ひ]、<私>[わたし]は<青>[あお]い<シャツ>[しゃつ]、<赤>[あか]い<シャツ>[しゃつ]、<緑>[みどり]のT<シャツ>[しゃつ]、<黄色>[きいろ]のT<シャツ>[しゃつ]を<持>[も]っていました。そして、<私>[わたし]は<カップ>[かっぷ]を<何個持>[なんこも]っていますかと<尋>[たず]ねられました。<カップ>[かっぷ]は<四個持>[よんこも]っています。<次>[つぎ]に、<サンドイッチ>[さんどいっち]を<何個持>[なんこも]っていますかと<尋>[たず]ねられました。<サンドイッチ>[さんどいっち]は<五個持>[ごこも]っています。",
+        "pairs": [
+            {
+                "part": "ある",
+                "phonetic": "ある"
+            },
+            {
+                "part": "<日>",
+                "phonetic": "ひ"
+            },
+            {
+                "part": "、",
+                "phonetic": "、"
+            },
+            {
+                "part": "<私>",
+                "phonetic": "わたし"
+            },
+            {
+                "part": "は",
+                "phonetic": "は"
+            },
+            {
+                "part": "<青>",
+                "phonetic": "あお"
+            },
+            {
+                "part": "い",
+                "phonetic": "い"
+            },
+            {
+                "part": "<シャツ>",
+                "phonetic": "しゃつ"
+            },
+            {
+                "part": "、",
+                "phonetic": "、"
+            },
+            {
+                "part": "<赤>",
+                "phonetic": "あか"
+            },
+            {
+                "part": "い",
+                "phonetic": "い"
+            },
+            {
+                "part": "<シャツ>",
+                "phonetic": "しゃつ"
+            },
+            {
+                "part": "、",
+                "phonetic": "、"
+            },
+            {
+                "part": "<緑>",
+                "phonetic": "みどり"
+            },
+            {
+                "part": "の",
+                "phonetic": "の"
+            },
+            {
+                "part": "T",
+                "phonetic": "T"
+            },
+            {
+                "part": "<シャツ>",
+                "phonetic": "しゃつ"
+            },
+            {
+                "part": "、",
+                "phonetic": "、"
+            },
+            {
+                "part": "<黄色>",
+                "phonetic": "きいろ"
+            },
+            {
+                "part": "の",
+                "phonetic": "の"
+            },
+            {
+                "part": "T",
+                "phonetic": "T"
+            },
+            {
+                "part": "<シャツ>",
+                "phonetic": "しゃつ"
+            },
+            {
+                "part": "を",
+                "phonetic": "を"
+            },
+            {
+                "part": "<持>",
+                "phonetic": "も"
+            },
+            {
+                "part": "っていました。",
+                "phonetic": "っていました。"
+            },
+            {
+                "part": "そして、",
+                "phonetic": "そして、"
+            },
+            {
+                "part": "<私>",
+                "phonetic": "わたし"
+            },
+            {
+                "part": "は",
+                "phonetic": "は"
+            },
+            {
+                "part": "<カップ>",
+                "phonetic": "かっぷ"
+            },
+            {
+                "part": "を",
+                "phonetic": "を"
+            },
+            {
+                "part": "<何個持>",
+                "phonetic": "なんこも"
+            },
+            {
+                "part": "っていますかと",
+                "phonetic": "っていますかと"
+            },
+            {
+                "part": "<尋>",
+                "phonetic": "たず"
+            },
+            {
+                "part": "ねられました。",
+                "phonetic": "ねられました。"
+            },
+            {
+                "part": "<カップ>",
+                "phonetic": "かっぷ"
+            },
+            {
+                "part": "は",
+                "phonetic": "は"
+            },
+            {
+                "part": "<四個持>",
+                "phonetic": "よんこも"
+            },
+            {
+                "part": "っています。",
+                "phonetic": "っています。"
+            },
+            {
+                "part": "<次>",
+                "phonetic": "つぎ"
+            },
+            {
+                "part": "に、",
+                "phonetic": "に、"
+            },
+            {
+                "part": "<サンドイッチ>",
+                "phonetic": "さんどいっち"
+            },
+            {
+                "part": "を",
+                "phonetic": "を"
+            },
+            {
+                "part": "<何個持>",
+                "phonetic": "なんこも"
+            },
+            {
+                "part": "っていますかと",
+                "phonetic": "っていますかと"
+            },
+            {
+                "part": "<尋>",
+                "phonetic": "たず"
+            },
+            {
+                "part": "ねられました。",
+                "phonetic": "ねられました。"
+            },
+            {
+                "part": "<サンドイッチ>",
+                "phonetic": "さんどいっち"
+            },
+            {
+                "part": "は",
+                "phonetic": "は"
+            },
+            {
+                "part": "<五個持>",
+                "phonetic": "ごこも"
+            },
+            {
+                "part": "っています。 ",
+                "phonetic": "っています。 "
+            }
+        ]
+    }
+}

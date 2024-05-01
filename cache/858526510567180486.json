@@ -1,0 +1,166 @@
+{
+    "prompt": "Given this Japanese text from Rosetta Stone: ボウル \tを \t何個 \t持って \tいますか。\\\\nボウル\tを \tなんこ \tもって \tいますか。\\\\nbouru\to\tnanko\tmotte\timasuka.\\\\n三個\t持って \tいます。\\\\nさんこ\tもって \tいます。\\\\nsanko\tmotte\timasu.\\\\nお皿\tを\t何枚 \t持って \tいますか。\\\\nおさら\tを \tなんまい \tもって \tいますか。\\\\nosara\to\tnanmai\tmotte\timasuka.\\\\n二枚\t持って \tいます。\\\\nにまい\tもって \tいます。\\\\nnimai\tmotte\timasu.\n\n. To help me learn languages, could you combine it to a Japanese sentence and tranlate it to English, Arabic, Chinese, and Cantonese with pronunciation? Breakdown the formulated sentence into a complete list phonetic pairs for each character or word in  each language.The output should be in JSON format: \n\n```json\n{\n  \"japanese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"english\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"arabic\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"chinese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"cantonese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "japanese": {
+            "sentence": "ボウルを三個とお皿を二枚持っています。",
+            "phonetics_pairs": [
+                {
+                    "part": "ボウル",
+                    "furigana": "ぼうる"
+                },
+                {
+                    "part": "を",
+                    "furigana": "を"
+                },
+                {
+                    "part": "三個",
+                    "furigana": "さんこ"
+                },
+                {
+                    "part": "と",
+                    "furigana": "と"
+                },
+                {
+                    "part": "お皿",
+                    "furigana": "おさら"
+                },
+                {
+                    "part": "を",
+                    "furigana": "を"
+                },
+                {
+                    "part": "二枚",
+                    "furigana": "にまい"
+                },
+                {
+                    "part": "持って",
+                    "furigana": "もって"
+                },
+                {
+                    "part": "います。",
+                    "furigana": "います"
+                }
+            ]
+        },
+        "english": {
+            "sentence": "I have three bowls and two plates.",
+            "phonetics_pairs": [
+                {
+                    "part": "I",
+                    "phonetics": "ai"
+                },
+                {
+                    "part": "have",
+                    "phonetics": "hav"
+                },
+                {
+                    "part": "three",
+                    "phonetics": "thriː"
+                },
+                {
+                    "part": "bowls",
+                    "phonetics": "boʊlz"
+                },
+                {
+                    "part": "and",
+                    "phonetics": "ænd"
+                },
+                {
+                    "part": "two",
+                    "phonetics": "tuː"
+                },
+                {
+                    "part": "plates",
+                    "phonetics": "pleɪts"
+                }
+            ]
+        },
+        "arabic": {
+            "sentence": "لدي ثلاثة أوعية وصحنين.",
+            "phonetics_pairs": [
+                {
+                    "part": "لدي",
+                    "phonetics": "ladayya"
+                },
+                {
+                    "part": "ثلاثة",
+                    "phonetics": "thalaathat"
+                },
+                {
+                    "part": "أوعية",
+                    "phonetics": "awʻiya"
+                },
+                {
+                    "part": "وصحنين",
+                    "phonetics": "waṣaḥnayn"
+                }
+            ]
+        },
+        "chinese": {
+            "sentence": "我有三个碗和两个盘子。",
+            "phonetics_pairs": [
+                {
+                    "part": "我",
+                    "pinyin": "wǒ"
+                },
+                {
+                    "part": "有",
+                    "pinyin": "yǒu"
+                },
+                {
+                    "part": "三个",
+                    "pinyin": "sān gè"
+                },
+                {
+                    "part": "碗",
+                    "pinyin": "wǎn"
+                },
+                {
+                    "part": "和",
+                    "pinyin": "hé"
+                },
+                {
+                    "part": "两个",
+                    "pinyin": "liǎng gè"
+                },
+                {
+                    "part": "盘子",
+                    "pinyin": "pán zi"
+                }
+            ]
+        },
+        "cantonese": {
+            "sentence": "我有三個碗同兩個碟。",
+            "phonetics_pairs": [
+                {
+                    "part": "我",
+                    "jyutping": "ngo5"
+                },
+                {
+                    "part": "有",
+                    "jyutping": "jau5"
+                },
+                {
+                    "part": "三個",
+                    "jyutping": "saam1 go3"
+                },
+                {
+                    "part": "碗",
+                    "jyutping": "wun2"
+                },
+                {
+                    "part": "同",
+                    "jyutping": "tung4"
+                },
+                {
+                    "part": "兩個",
+                    "jyutping": "loeng5 go3"
+                },
+                {
+                    "part": "碟",
+                    "jyutping": "dip6"
+                }
+            ]
+        }
+    }
+}

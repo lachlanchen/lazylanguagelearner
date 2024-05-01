@@ -1,0 +1,108 @@
+{
+    "prompt": "Given the ar sentence: \"في يوم ما، كان لدي قميص أزرق، وقميص أحمر، وتيشرت أخضر، وتيشرت أصفر. ثم سُئلت عن عدد الأكواب التي كانت لدي. كان لدي أربعة أكواب. بعد ذلك، سُئلت عن عدد السندويشات التي كانت لدي. كان لدي خمسة سندويشات.\", provide a phonetics breakdown for each word or character. Format the output in JSON structure as shown below:\n\n```json\n{\n  \"full\": \"{sentence}\",\n  \"pairs\": [\n    {\n      \"part\": \"Example word or character\",\n      \"phonetic\": \"Example phonetic representation\"\n    }\n  ]\n}\n```",
+    "response": {
+        "full": "في يوم ما، كان لدي قميص أزرق، وقميص أحمر، وتيشرت أخضر، وتيشرت أصفر. ثم سُئلت عن عدد الأكواب التي كانت لدي. كان لدي أربعة أكواب. بعد ذلك، سُئلت عن عدد السندويشات التي كانت لدي. كان لدي خمسة سندويشات.",
+        "pairs": [
+            {
+                "part": "في",
+                "phonetic": "fi"
+            },
+            {
+                "part": "يوم",
+                "phonetic": "yawm"
+            },
+            {
+                "part": "ما",
+                "phonetic": "mā"
+            },
+            {
+                "part": "،",
+                "phonetic": ","
+            },
+            {
+                "part": "كان",
+                "phonetic": "kān"
+            },
+            {
+                "part": "لدي",
+                "phonetic": "laday"
+            },
+            {
+                "part": "قميص",
+                "phonetic": "qamīṣ"
+            },
+            {
+                "part": "أزرق",
+                "phonetic": "ʾazraq"
+            },
+            {
+                "part": "و",
+                "phonetic": "wa"
+            },
+            {
+                "part": "أحمر",
+                "phonetic": "ʾaḥmar"
+            },
+            {
+                "part": "تيشرت",
+                "phonetic": "tīshrut"
+            },
+            {
+                "part": "أخضر",
+                "phonetic": "ʾakhḍar"
+            },
+            {
+                "part": "أصفر",
+                "phonetic": "ʾaṣfar"
+            },
+            {
+                "part": "ثم",
+                "phonetic": "thumma"
+            },
+            {
+                "part": "سُئلت",
+                "phonetic": "su'iltu"
+            },
+            {
+                "part": "عن",
+                "phonetic": "ʿan"
+            },
+            {
+                "part": "عدد",
+                "phonetic": "ʿadad"
+            },
+            {
+                "part": "الأكواب",
+                "phonetic": "al-ʾakwāb"
+            },
+            {
+                "part": "التي",
+                "phonetic": "allatī"
+            },
+            {
+                "part": "كانت",
+                "phonetic": "kānat"
+            },
+            {
+                "part": "أربعة",
+                "phonetic": "ʾarbaʿah"
+            },
+            {
+                "part": "بعد",
+                "phonetic": "baʿd"
+            },
+            {
+                "part": "ذلك",
+                "phonetic": "dhālik"
+            },
+            {
+                "part": "السندويشات",
+                "phonetic": "al-sandawīshāt"
+            },
+            {
+                "part": "خمسة",
+                "phonetic": "khamsah"
+            }
+        ]
+    }
+}

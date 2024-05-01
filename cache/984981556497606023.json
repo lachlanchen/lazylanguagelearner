@@ -1,0 +1,339 @@
+{
+    "prompt": "Given the zh sentence: \"有一天，我有一件蓝色的衬衫、一件红色的衬衫、一件绿色的T恤和一件黄色的T恤。然后，有人问我有多少个杯子。我有四个杯子。接下来，有人问我有多少个三明治。我有五个三明治。\", provide a pinyin phonetics breakdown for each word or character. Treat space and punctuation as a part. Keep duplicated part also in the list. Format the output in JSON structure as shown below:\n\n```json\n{\n  \"pairs\": [\n    {\n      \"part\": \"Example word or character\",\n      \"phonetic\": \"Example phonetic representation\"\n    }\n  ]\n}\n```",
+    "response": {
+        "pairs": [
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "一",
+                "phonetic": "yī"
+            },
+            {
+                "part": "天",
+                "phonetic": "tiān"
+            },
+            {
+                "part": "，",
+                "phonetic": ""
+            },
+            {
+                "part": "我",
+                "phonetic": "wǒ"
+            },
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "一",
+                "phonetic": "yī"
+            },
+            {
+                "part": "件",
+                "phonetic": "jiàn"
+            },
+            {
+                "part": "蓝",
+                "phonetic": "lán"
+            },
+            {
+                "part": "色",
+                "phonetic": "sè"
+            },
+            {
+                "part": "的",
+                "phonetic": "de"
+            },
+            {
+                "part": "衬",
+                "phonetic": "chèn"
+            },
+            {
+                "part": "衫",
+                "phonetic": "shān"
+            },
+            {
+                "part": "、",
+                "phonetic": ""
+            },
+            {
+                "part": "一",
+                "phonetic": "yī"
+            },
+            {
+                "part": "件",
+                "phonetic": "jiàn"
+            },
+            {
+                "part": "红",
+                "phonetic": "hóng"
+            },
+            {
+                "part": "色",
+                "phonetic": "sè"
+            },
+            {
+                "part": "的",
+                "phonetic": "de"
+            },
+            {
+                "part": "衬",
+                "phonetic": "chèn"
+            },
+            {
+                "part": "衫",
+                "phonetic": "shān"
+            },
+            {
+                "part": "、",
+                "phonetic": ""
+            },
+            {
+                "part": "一",
+                "phonetic": "yī"
+            },
+            {
+                "part": "件",
+                "phonetic": "jiàn"
+            },
+            {
+                "part": "绿",
+                "phonetic": "lǜ"
+            },
+            {
+                "part": "色",
+                "phonetic": "sè"
+            },
+            {
+                "part": "的",
+                "phonetic": "de"
+            },
+            {
+                "part": "T",
+                "phonetic": "T"
+            },
+            {
+                "part": "恤",
+                "phonetic": "xù"
+            },
+            {
+                "part": "和",
+                "phonetic": "hé"
+            },
+            {
+                "part": "一",
+                "phonetic": "yī"
+            },
+            {
+                "part": "件",
+                "phonetic": "jiàn"
+            },
+            {
+                "part": "黄",
+                "phonetic": "huáng"
+            },
+            {
+                "part": "色",
+                "phonetic": "sè"
+            },
+            {
+                "part": "的",
+                "phonetic": "de"
+            },
+            {
+                "part": "T",
+                "phonetic": "T"
+            },
+            {
+                "part": "恤",
+                "phonetic": "xù"
+            },
+            {
+                "part": "。",
+                "phonetic": ""
+            },
+            {
+                "part": "然",
+                "phonetic": "rán"
+            },
+            {
+                "part": "后",
+                "phonetic": "hòu"
+            },
+            {
+                "part": "，",
+                "phonetic": ""
+            },
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "人",
+                "phonetic": "rén"
+            },
+            {
+                "part": "问",
+                "phonetic": "wèn"
+            },
+            {
+                "part": "我",
+                "phonetic": "wǒ"
+            },
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "多",
+                "phonetic": "duō"
+            },
+            {
+                "part": "少",
+                "phonetic": "shǎo"
+            },
+            {
+                "part": "个",
+                "phonetic": "gè"
+            },
+            {
+                "part": "杯",
+                "phonetic": "bēi"
+            },
+            {
+                "part": "子",
+                "phonetic": "zi"
+            },
+            {
+                "part": "。",
+                "phonetic": ""
+            },
+            {
+                "part": "我",
+                "phonetic": "wǒ"
+            },
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "四",
+                "phonetic": "sì"
+            },
+            {
+                "part": "个",
+                "phonetic": "gè"
+            },
+            {
+                "part": "杯",
+                "phonetic": "bēi"
+            },
+            {
+                "part": "子",
+                "phonetic": "zi"
+            },
+            {
+                "part": "。",
+                "phonetic": ""
+            },
+            {
+                "part": "接",
+                "phonetic": "jiē"
+            },
+            {
+                "part": "下",
+                "phonetic": "xià"
+            },
+            {
+                "part": "来",
+                "phonetic": "lái"
+            },
+            {
+                "part": "，",
+                "phonetic": ""
+            },
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "人",
+                "phonetic": "rén"
+            },
+            {
+                "part": "问",
+                "phonetic": "wèn"
+            },
+            {
+                "part": "我",
+                "phonetic": "wǒ"
+            },
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "多",
+                "phonetic": "duō"
+            },
+            {
+                "part": "少",
+                "phonetic": "shǎo"
+            },
+            {
+                "part": "个",
+                "phonetic": "gè"
+            },
+            {
+                "part": "三",
+                "phonetic": "sān"
+            },
+            {
+                "part": "明",
+                "phonetic": "míng"
+            },
+            {
+                "part": "治",
+                "phonetic": "zhì"
+            },
+            {
+                "part": "。",
+                "phonetic": ""
+            },
+            {
+                "part": "我",
+                "phonetic": "wǒ"
+            },
+            {
+                "part": "有",
+                "phonetic": "yǒu"
+            },
+            {
+                "part": "五",
+                "phonetic": "wǔ"
+            },
+            {
+                "part": "个",
+                "phonetic": "gè"
+            },
+            {
+                "part": "三",
+                "phonetic": "sān"
+            },
+            {
+                "part": "明",
+                "phonetic": "míng"
+            },
+            {
+                "part": "治",
+                "phonetic": "zhì"
+            },
+            {
+                "part": "。",
+                "phonetic": ""
+            }
+        ]
+    }
+}

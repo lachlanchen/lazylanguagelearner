@@ -1,0 +1,203 @@
+{
+    "prompt": "Given the en sentence: \"One day, I had a blue shirt, a red shirt, a green T-shirt, and a yellow T-shirt. Then, I was asked how many cups I had. I had four cups. Next, I was asked how many sandwiches I had. I had five sandwiches.\", provide a phonetics phonetics breakdown for each word or character. Treat space and punctuation as a part. Keep duplicated part also in the list. Assure the join of part is exactly the full sentence. Format the output in JSON structure as shown below:\n\n```json\n{\n  \"pairs\": [\n    {\n      \"part\": \"Example word or character\",\n      \"phonetic\": \"Example phonetic representation\"\n    }\n  ]\n}\n```",
+    "response": {
+        "pairs": [
+            {
+                "part": "One",
+                "phonetic": "wʌn"
+            },
+            {
+                "part": " ",
+                "phonetic": " "
+            },
+            {
+                "part": "day",
+                "phonetic": "deɪ"
+            },
+            {
+                "part": ",",
+                "phonetic": ","
+            },
+            {
+                "part": "I",
+                "phonetic": "aɪ"
+            },
+            {
+                "part": "had",
+                "phonetic": "hæd"
+            },
+            {
+                "part": "a",
+                "phonetic": "ə"
+            },
+            {
+                "part": "blue",
+                "phonetic": "bluː"
+            },
+            {
+                "part": "shirt",
+                "phonetic": "ʃɜːrt"
+            },
+            {
+                "part": ",",
+                "phonetic": ","
+            },
+            {
+                "part": "a",
+                "phonetic": "ə"
+            },
+            {
+                "part": "red",
+                "phonetic": "rɛd"
+            },
+            {
+                "part": "shirt",
+                "phonetic": "ʃɜːrt"
+            },
+            {
+                "part": ",",
+                "phonetic": ","
+            },
+            {
+                "part": "a",
+                "phonetic": "ə"
+            },
+            {
+                "part": "green",
+                "phonetic": "griːn"
+            },
+            {
+                "part": "T-shirt",
+                "phonetic": "ˈtiː ʃɜːrt"
+            },
+            {
+                "part": ",",
+                "phonetic": ","
+            },
+            {
+                "part": "and",
+                "phonetic": "ænd"
+            },
+            {
+                "part": "a",
+                "phonetic": "ə"
+            },
+            {
+                "part": "yellow",
+                "phonetic": "ˈjɛloʊ"
+            },
+            {
+                "part": "T-shirt",
+                "phonetic": "ˈtiː ʃɜːrt"
+            },
+            {
+                "part": ".",
+                "phonetic": "."
+            },
+            {
+                "part": "Then",
+                "phonetic": "ðɛn"
+            },
+            {
+                "part": ",",
+                "phonetic": ","
+            },
+            {
+                "part": "I",
+                "phonetic": "aɪ"
+            },
+            {
+                "part": "was",
+                "phonetic": "wəz"
+            },
+            {
+                "part": "asked",
+                "phonetic": "æskt"
+            },
+            {
+                "part": "how",
+                "phonetic": "haʊ"
+            },
+            {
+                "part": "many",
+                "phonetic": "ˈmɛni"
+            },
+            {
+                "part": "cups",
+                "phonetic": "kʌps"
+            },
+            {
+                "part": "I",
+                "phonetic": "aɪ"
+            },
+            {
+                "part": "had",
+                "phonetic": "hæd"
+            },
+            {
+                "part": "four",
+                "phonetic": "fɔːr"
+            },
+            {
+                "part": "cups",
+                "phonetic": "kʌps"
+            },
+            {
+                "part": ".",
+                "phonetic": "."
+            },
+            {
+                "part": "Next",
+                "phonetic": "nɛkst"
+            },
+            {
+                "part": ",",
+                "phonetic": ","
+            },
+            {
+                "part": "I",
+                "phonetic": "aɪ"
+            },
+            {
+                "part": "was",
+                "phonetic": "wəz"
+            },
+            {
+                "part": "asked",
+                "phonetic": "æskt"
+            },
+            {
+                "part": "how",
+                "phonetic": "haʊ"
+            },
+            {
+                "part": "many",
+                "phonetic": "ˈmɛni"
+            },
+            {
+                "part": "sandwiches",
+                "phonetic": "ˈsændwɪʧɪz"
+            },
+            {
+                "part": "I",
+                "phonetic": "aɪ"
+            },
+            {
+                "part": "had",
+                "phonetic": "hæd"
+            },
+            {
+                "part": "five",
+                "phonetic": "faɪv"
+            },
+            {
+                "part": "sandwiches",
+                "phonetic": "ˈsændwɪʧɪz"
+            },
+            {
+                "part": ".",
+                "phonetic": "."
+            }
+        ]
+    }
+}

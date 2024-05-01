@@ -1,0 +1,230 @@
+{
+    "prompt": "Given this Japanese text from Rosetta Stone: ボウル \tを \t何個 \t持って \tいますか。\\\\nボウル\tを \tなんこ \tもって \tいますか。\\\\nbouru\to\tnanko\tmotte\timasuka.\\\\n三個\t持って \tいます。\\\\nさんこ\tもって \tいます。\\\\nsanko\tmotte\timasu.\\\\nお皿\tを\t何枚 \t持って \tいますか。\\\\nおさら\tを \tなんまい \tもって \tいますか。\\\\nosara\to\tnanmai\tmotte\timasuka.\\\\n二枚\t持って \tいます。\\\\nにまい\tもって \tいます。\\\\nnimai\tmotte\timasu.\n\n. To help me learn languages, could you combine it to a complete Japanese paragraph and tranlate it to English, Arabic, Chinese, and Cantonese with pronunciation? Breakdown the formulated sentence into a complete list phonetic pairs for each character or word in  each language.The output should be in JSON format: \n\n```json\n{\n  \"ja\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"en\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"phon\": \"\"\n      }\n    ]\n  },\n  \"ar\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"phon\": \"\"\n      }\n    ]\n  },\n  \"zh\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"yue\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "ja": {
+            "full": "ボウルを何個持っていますか。三個持っています。お皿を何枚持っていますか。二枚持っています。",
+            "pairs": [
+                {
+                    "part": "ボウル",
+                    "furigana": "ぼうる"
+                },
+                {
+                    "part": "を",
+                    "furigana": "を"
+                },
+                {
+                    "part": "何個",
+                    "furigana": "なんこ"
+                },
+                {
+                    "part": "持っ",
+                    "furigana": "もっ"
+                },
+                {
+                    "part": "て",
+                    "furigana": "て"
+                },
+                {
+                    "part": "います",
+                    "furigana": "います"
+                },
+                {
+                    "part": "か。",
+                    "furigana": "か。"
+                },
+                {
+                    "part": "三個",
+                    "furigana": "さんこ"
+                },
+                {
+                    "part": "お皿",
+                    "furigana": "おさら"
+                },
+                {
+                    "part": "何枚",
+                    "furigana": "なんまい"
+                },
+                {
+                    "part": "二枚",
+                    "furigana": "にまい"
+                }
+            ]
+        },
+        "en": {
+            "full": "How many bowls do you have? I have three. How many plates do you have? I have two.",
+            "pairs": [
+                {
+                    "part": "How",
+                    "phon": "haʊ"
+                },
+                {
+                    "part": "many",
+                    "phon": "ˈmɛni"
+                },
+                {
+                    "part": "bowls",
+                    "phon": "boʊlz"
+                },
+                {
+                    "part": "do",
+                    "phon": "du"
+                },
+                {
+                    "part": "you",
+                    "phon": "ju"
+                },
+                {
+                    "part": "have",
+                    "phon": "hæv"
+                },
+                {
+                    "part": "?",
+                    "phon": ""
+                },
+                {
+                    "part": "I",
+                    "phon": "aɪ"
+                },
+                {
+                    "part": "three",
+                    "phon": "θri"
+                },
+                {
+                    "part": "plates",
+                    "phon": "pleɪts"
+                },
+                {
+                    "part": "two",
+                    "phon": "tu"
+                }
+            ]
+        },
+        "ar": {
+            "full": "كم عددُ الأوعية التي تملكها؟ لدي ثلاثة. كم عدد الصحون التي تملكها؟ لدي اثنان.",
+            "pairs": [
+                {
+                    "part": "كم",
+                    "phon": "kam"
+                },
+                {
+                    "part": "عددُ",
+                    "phon": "ʿadd"
+                },
+                {
+                    "part": "الأوعية",
+                    "phon": "al'āw'ie"
+                },
+                {
+                    "part": "التي",
+                    "phon": "allatī"
+                },
+                {
+                    "part": "تملكها",
+                    "phon": "tamlikuhā"
+                },
+                {
+                    "part": "لدي",
+                    "phon": "ladayya"
+                },
+                {
+                    "part": "ثلاثة",
+                    "phon": "thalātha"
+                },
+                {
+                    "part": "الصحون",
+                    "phon": "alṣiḥūn"
+                },
+                {
+                    "part": "اثنان",
+                    "phon": "ithnān"
+                }
+            ]
+        },
+        "zh": {
+            "full": "你有多少个碗？我有三个。你有多少个盘子？我有两个。",
+            "pairs": [
+                {
+                    "part": "你",
+                    "pinyin": "nǐ"
+                },
+                {
+                    "part": "有",
+                    "pinyin": "yǒu"
+                },
+                {
+                    "part": "多少",
+                    "pinyin": "duōshǎo"
+                },
+                {
+                    "part": "个",
+                    "pinyin": "gè"
+                },
+                {
+                    "part": "碗",
+                    "pinyin": "wǎn"
+                },
+                {
+                    "part": "我",
+                    "pinyin": "wǒ"
+                },
+                {
+                    "part": "三",
+                    "pinyin": "sān"
+                },
+                {
+                    "part": "盘子",
+                    "pinyin": "pánzi"
+                },
+                {
+                    "part": "两",
+                    "pinyin": "liǎng"
+                }
+            ]
+        },
+        "yue": {
+            "full": "你有幾個碗？我有三個。你有幾塊碟？我有兩塊。",
+            "pairs": [
+                {
+                    "part": "你",
+                    "jyutping": "nei5"
+                },
+                {
+                    "part": "有",
+                    "jyutping": "jau5"
+                },
+                {
+                    "part": "幾",
+                    "jyutping": "gei2"
+                },
+                {
+                    "part": "個",
+                    "jyutping": "go3"
+                },
+                {
+                    "part": "碗",
+                    "jyutping": "wun2"
+                },
+                {
+                    "part": "我",
+                    "jyutping": "ngo5"
+                },
+                {
+                    "part": "三",
+                    "jyutping": "saam1"
+                },
+                {
+                    "part": "碟",
+                    "jyutping": "dip6"
+                },
+                {
+                    "part": "兩",
+                    "jyutping": "loeng5"
+                },
+                {
+                    "part": "塊",
+                    "jyutping": "fai3"
+                }
+            ]
+        }
+    }
+}

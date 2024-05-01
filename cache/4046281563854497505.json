@@ -1,0 +1,146 @@
+{
+    "prompt": "Given this Japanese text: ボウル \tを \t何個 \t持って \tいますか。\\\\nボウル\tを \tなんこ \tもって \tいますか。\\\\nbouru\to\tnanko\tmotte\timasuka.\\\\n三個\t持って \tいます。\\\\nさんこ\tもって \tいます。\\\\nsanko\tmotte\timasu.\\\\nお皿\tを\t何枚 \t持って \tいますか。\\\\nおさら\tを \tなんまい \tもって \tいますか。\\\\nosara\to\tnanmai\tmotte\timasuka.\\\\n二枚\t持って \tいます。\\\\nにまい\tもって \tいます。\\\\nnimai\tmotte\timasu.\n\nCould you write a Japanese sentence and tranlate it to English, Arabic, Chinese, and Cantonese with pronunciation? Breakdown the sentences into a complete list phonetic pairs for each character or word in  each language.The output should be in JSON format: \n\n```json\n{\n  \"japanese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"english\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"arabic\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"chinese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"cantonese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "japanese": {
+            "sentence": "この本を読んでいます。",
+            "phonetics_pairs": [
+                {
+                    "part": "この",
+                    "furigana": "この"
+                },
+                {
+                    "part": "本",
+                    "furigana": "ほん"
+                },
+                {
+                    "part": "を",
+                    "furigana": "を"
+                },
+                {
+                    "part": "読ん",
+                    "furigana": "よん"
+                },
+                {
+                    "part": "で",
+                    "furigana": "で"
+                },
+                {
+                    "part": "います",
+                    "furigana": "います"
+                }
+            ]
+        },
+        "english": {
+            "sentence": "I am reading this book.",
+            "phonetics_pairs": [
+                {
+                    "part": "I",
+                    "phonetics": "ai"
+                },
+                {
+                    "part": "am",
+                    "phonetics": "am"
+                },
+                {
+                    "part": "reading",
+                    "phonetics": "reed·ing"
+                },
+                {
+                    "part": "this",
+                    "phonetics": "this"
+                },
+                {
+                    "part": "book",
+                    "phonetics": "buhk"
+                }
+            ]
+        },
+        "arabic": {
+            "sentence": "أنا أقرأ هذا الكتاب.",
+            "phonetics_pairs": [
+                {
+                    "part": "أنا",
+                    "phonetics": "ana"
+                },
+                {
+                    "part": "أقرأ",
+                    "phonetics": "aqra'u"
+                },
+                {
+                    "part": "هذا",
+                    "phonetics": "hadha"
+                },
+                {
+                    "part": "الكتاب",
+                    "phonetics": "al-kitab"
+                }
+            ]
+        },
+        "chinese": {
+            "sentence": "我正在读这本书。",
+            "phonetics_pairs": [
+                {
+                    "part": "我",
+                    "pinyin": "wǒ"
+                },
+                {
+                    "part": "正",
+                    "pinyin": "zhèng"
+                },
+                {
+                    "part": "在",
+                    "pinyin": "zài"
+                },
+                {
+                    "part": "读",
+                    "pinyin": "dú"
+                },
+                {
+                    "part": "这",
+                    "pinyin": "zhè"
+                },
+                {
+                    "part": "本",
+                    "pinyin": "běn"
+                },
+                {
+                    "part": "书",
+                    "pinyin": "shū"
+                }
+            ]
+        },
+        "cantonese": {
+            "sentence": "我正在讀呢本書。",
+            "phonetics_pairs": [
+                {
+                    "part": "我",
+                    "jyutping": "ngo5"
+                },
+                {
+                    "part": "正",
+                    "jyutping": "zing3"
+                },
+                {
+                    "part": "在",
+                    "jyutping": "zoi6"
+                },
+                {
+                    "part": "讀",
+                    "jyutping": "dou6"
+                },
+                {
+                    "part": "呢",
+                    "jyutping": "ne1"
+                },
+                {
+                    "part": "本",
+                    "jyutping": "bun2"
+                },
+                {
+                    "part": "書",
+                    "jyutping": "syu1"
+                }
+            ]
+        }
+    }
+}

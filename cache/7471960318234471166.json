@@ -1,0 +1,10 @@
+{
+    "prompt": "Based on this Japanese text: 青い \tシャツ\\\\nあおい\tシャツ\\\\naoi\tshatsu\\\\n赤い\tシャツ\\\\nあかい\tシャツ\\\\nakai\tshatsu\\\\n緑\tの\tTシャツ\\\\nみどり\tの \tTシャツ\\\\nmidori\tno\tTshatsu\\\\n黄色\tの\tTシャツ\\\\nきいろ\tの \tTシャツ\\\\nkiiro\tno\tTshatsu21\t カップ \tを \t何個 \t持って \tいますか。\\\\nカップ\tを \tなんこ \tもって \tいますか。\\\\nkappu\to\tnanko\tmotte\timasuka.\\\\n四個\t持って \tいます。\\\\nよんこ\tもって \tいます。\\\\nyonko\tmotte\timasu.\\\\nサンドイッチ \tを \t何個 \t持って \tいますか。\\\\nサンドイッチ \tを \tなんこ \tもって \tいますか。\\\\nsandoicchi \to\tnanko\tmotte\timasuka.\\\\n五個\t持って \tいます。\\\\nごこ\tもって \tいます。\\\\ngoko\tmotte\timasu.\n\nCombine it a full Japanese story. Translate it to English, Arabic, Chinese, and Cantonese. Format the translations in a JSON structure as shown below:\n\n```json\n{\n  \"ja\": \"Japanese text\",\n  \"en\": \"English translation\",\n  \"ar\": \"Arabic translation\",\n  \"zh\": \"Chinese translation\",\n  \"yue\": \"Cantonese translation\"\n}\n```",
+    "response": {
+        "ja": "ある日、私は青いシャツ、赤いシャツ、緑のTシャツ、黄色のTシャツを持っていました。そして、私はカップを何個持っていますかと尋ねられました。カップは四個持っています。次に、サンドイッチを何個持っていますかと尋ねられました。サンドイッチは五個持っています。",
+        "en": "One day, I had a blue shirt, a red shirt, a green T-shirt, and a yellow T-shirt. Then, I was asked how many cups I had. I had four cups. Next, I was asked how many sandwiches I had. I had five sandwiches.",
+        "ar": "في يوم ما، كان لدي قميص أزرق، وقميص أحمر، وتيشرت أخضر، وتيشرت أصفر. ثم سُئلت عن عدد الأكواب التي كانت لدي. كان لدي أربعة أكواب. بعد ذلك، سُئلت عن عدد السندويشات التي كانت لدي. كان لدي خمسة سندويشات.",
+        "zh": "有一天，我有一件蓝色的衬衫、一件红色的衬衫、一件绿色的T恤和一件黄色的T恤。然后，有人问我有多少个杯子。我有四个杯子。接下来，有人问我有多少个三明治。我有五个三明治。",
+        "yue": "有一日，我有件藍色嘅襯衫、件紅色嘅襯衫、件綠色嘅T恤同件黃色嘅T恤。跟住，有人問我有幾多個杯。我有四個杯。之後，有人問我有幾多個三文治。我有五個三文治。"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "prompt": "Given this Japanese text from Rosetta Stone: ボウル \tを \t何個 \t持って \tいますか。\\\\nボウル\tを \tなんこ \tもって \tいますか。\\\\nbouru\to\tnanko\tmotte\timasuka.\\\\n三個\t持って \tいます。\\\\nさんこ\tもって \tいます。\\\\nsanko\tmotte\timasu.\\\\nお皿\tを\t何枚 \t持って \tいますか。\\\\nおさら\tを \tなんまい \tもって \tいますか。\\\\nosara\to\tnanmai\tmotte\timasuka.\\\\n二枚\t持って \tいます。\\\\nにまい\tもって \tいます。\\\\nnimai\tmotte\timasu.\n\n. To help me learn languages, could you formulate a useful Japanese sentence and tranlate it to English, Arabic, Chinese, and Cantonese with pronunciation? Breakdown the formulated sentence into a complete list phonetic pairs for each character or word in  each language.The output should be in JSON format: \n\n```json\n{\n  \"japanese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"english\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"arabic\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"chinese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"cantonese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "japanese": {
+            "sentence": "私は毎朝コーヒーを飲みます。",
+            "phonetics_pairs": [
+                {
+                    "part": "私",
+                    "furigana": "わたし"
+                },
+                {
+                    "part": "は",
+                    "furigana": "は"
+                },
+                {
+                    "part": "毎朝",
+                    "furigana": "まいあさ"
+                },
+                {
+                    "part": "コーヒー",
+                    "furigana": "こーひー"
+                },
+                {
+                    "part": "を",
+                    "furigana": "を"
+                },
+                {
+                    "part": "飲みます",
+                    "furigana": "のみます"
+                }
+            ]
+        },
+        "english": {
+            "sentence": "I drink coffee every morning.",
+            "phonetics_pairs": [
+                {
+                    "part": "I",
+                    "phonetics": "ai"
+                },
+                {
+                    "part": "drink",
+                    "phonetics": "drink"
+                },
+                {
+                    "part": "coffee",
+                    "phonetics": "kɒfi"
+                },
+                {
+                    "part": "every",
+                    "phonetics": "ˈɛvri"
+                },
+                {
+                    "part": "morning",
+                    "phonetics": "ˈmɔːrnɪŋ"
+                }
+            ]
+        },
+        "arabic": {
+            "sentence": "أشرب القهوة كل صباح.",
+            "phonetics_pairs": [
+                {
+                    "part": "أشرب",
+                    "phonetics": "'ashrab"
+                },
+                {
+                    "part": "القهوة",
+                    "phonetics": "alqahwah"
+                },
+                {
+                    "part": "كل",
+                    "phonetics": "kul"
+                },
+                {
+                    "part": "صباح",
+                    "phonetics": "ṣabāḥ"
+                }
+            ]
+        },
+        "chinese": {
+            "sentence": "我每天早上喝咖啡。",
+            "phonetics_pairs": [
+                {
+                    "part": "我",
+                    "pinyin": "wǒ"
+                },
+                {
+                    "part": "每天",
+                    "pinyin": "měi tiān"
+                },
+                {
+                    "part": "早上",
+                    "pinyin": "zǎo shàng"
+                },
+                {
+                    "part": "喝",
+                    "pinyin": "hē"
+                },
+                {
+                    "part": "咖啡",
+                    "pinyin": "kā fēi"
+                }
+            ]
+        },
+        "cantonese": {
+            "sentence": "我每朝飲咖啡。",
+            "phonetics_pairs": [
+                {
+                    "part": "我",
+                    "jyutping": "ngo5"
+                },
+                {
+                    "part": "每朝",
+                    "jyutping": "mui5 ziu1"
+                },
+                {
+                    "part": "飲",
+                    "jyutping": "jam2"
+                },
+                {
+                    "part": "咖啡",
+                    "jyutping": "kaa1 fe1"
+                }
+            ]
+        }
+    }
+}

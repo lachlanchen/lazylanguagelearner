@@ -1,0 +1,126 @@
+{
+    "prompt": "Given this Japanese text: 青い \tシャツ\\\\nあおい\tシャツ\\\\naoi\tshatsu\\\\n赤い\tシャツ\\\\nあかい\tシャツ\\\\nakai\tshatsu\\\\n緑\tの\tTシャツ\\\\nみどり\tの \tTシャツ\\\\nmidori\tno\tTshatsu\\\\n黄色\tの\tTシャツ\\\\nきいろ\tの \tTシャツ\\\\nkiiro\tno\tTshatsu21\t カップ \tを \t何個 \t持って \tいますか。\\\\nカップ\tを \tなんこ \tもって \tいますか。\\\\nkappu\to\tnanko\tmotte\timasuka.\\\\n四個\t持って \tいます。\\\\nよんこ\tもって \tいます。\\\\nyonko\tmotte\timasu.\\\\nサンドイッチ \tを \t何個 \t持って \tいますか。\\\\nサンドイッチ \tを \tなんこ \tもって \tいますか。\\\\nsandoicchi \to\tnanko\tmotte\timasuka.\\\\n五個\t持って \tいます。\\\\nごこ\tもって \tいます。\\\\ngoko\tmotte\timasu.\n\nCould you clean the Japanese sentence and tranlate it to English, Arabic, Chinese, and Cantonese with pronunciation? The output should be in JSON format with sentences and phonetic pairs for each language.\n\n**JSON Format**:\n```json\n{\n  \"japanese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"english\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"arabic\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"chinese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"cantonese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "japanese": {
+            "sentence": "青いシャツ、赤いシャツ、緑のTシャツ、黄色のTシャツ。カップを何個持っていますか。四個持っています。サンドイッチを何個持っていますか。五個持っています。",
+            "phonetics_pairs": [
+                {
+                    "part": "青い",
+                    "furigana": "あおい"
+                },
+                {
+                    "part": "赤い",
+                    "furigana": "あかい"
+                },
+                {
+                    "part": "緑の",
+                    "furigana": "みどりの"
+                },
+                {
+                    "part": "黄色の",
+                    "furigana": "きいろの"
+                },
+                {
+                    "part": "カップを何個持っていますか",
+                    "furigana": "カップをなんこもっていますか"
+                },
+                {
+                    "part": "四個持っています",
+                    "furigana": "よんこもっています"
+                },
+                {
+                    "part": "サンドイッチを何個持っていますか",
+                    "furigana": "サンドイッチをなんこもっていますか"
+                },
+                {
+                    "part": "五個持っています",
+                    "furigana": "ごこもっています"
+                }
+            ]
+        },
+        "english": {
+            "sentence": "A blue shirt, a red shirt, a green T-shirt, a yellow T-shirt. How many cups do you have? I have four. How many sandwiches do you have? I have five.",
+            "phonetics_pairs": [
+                {
+                    "part": "shirt",
+                    "phonetics": "ʃɜːrt"
+                },
+                {
+                    "part": "T-shirt",
+                    "phonetics": "ˈtiː ʃɜːrt"
+                },
+                {
+                    "part": "cups",
+                    "phonetics": "kʌps"
+                },
+                {
+                    "part": "sandwiches",
+                    "phonetics": "ˈsænwɪdʒɪz"
+                }
+            ]
+        },
+        "arabic": {
+            "sentence": "قميص أزرق، قميص أحمر، تي شيرت أخضر، تي شيرت أصفر. كم عدد الأكواب التي تملكها؟ لدي أربعة. كم عدد الساندويتشات التي تملكها؟ لدي خمسة.",
+            "phonetics_pairs": [
+                {
+                    "part": "قميص",
+                    "phonetics": "قَمِيص"
+                },
+                {
+                    "part": "تي شيرت",
+                    "phonetics": "تِي شِيرت"
+                },
+                {
+                    "part": "أكواب",
+                    "phonetics": "أَكْوَاب"
+                },
+                {
+                    "part": "ساندويتشات",
+                    "phonetics": "سَانْدْوِيتْشَات"
+                }
+            ]
+        },
+        "chinese": {
+            "sentence": "一件蓝色的衬衫，一件红色的衬衫，一件绿色的T恤，一件黄色的T恤。你有多少个杯子？我有四个。你有多少个三明治？我有五个。",
+            "phonetics_pairs": [
+                {
+                    "part": "衬衫",
+                    "pinyin": "chèn shān"
+                },
+                {
+                    "part": "T恤",
+                    "pinyin": "T xù"
+                },
+                {
+                    "part": "杯子",
+                    "pinyin": "bēi zi"
+                },
+                {
+                    "part": "三明治",
+                    "pinyin": "sān míng zhì"
+                }
+            ]
+        },
+        "cantonese": {
+            "sentence": "一件藍色嘅恤衫，一件紅色嘅恤衫，一件綠色嘅T恤，一件黃色嘅T恤。你有幾多個杯？我有四個。你有幾多個三文治？我有五個。",
+            "phonetics_pairs": [
+                {
+                    "part": "恤衫",
+                    "jyutping": "seot6 saam1"
+                },
+                {
+                    "part": "T恤",
+                    "jyutping": "T seot6"
+                },
+                {
+                    "part": "杯",
+                    "jyutping": "bui1"
+                },
+                {
+                    "part": "三文治",
+                    "jyutping": "saam1 man4 zi6"
+                }
+            ]
+        }
+    }
+}

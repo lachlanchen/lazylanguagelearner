@@ -1,0 +1,1463 @@
+{
+  "ja": {
+    "full": "ある<日>[ひ]、<私>[わたし]は<青>[あお]い<シャツ>[しゃつ]、<赤>[あか]い<シャツ>[しゃつ]、<緑>[みどり]のT<シャツ>[しゃつ]、<黄色>[きいろ]のT<シャツ>[しゃつ]を<持>[も]っていました。そして、<私>[わたし]は<カップ>[かっぷ]を<何個持>[なんこも]っていますかと<尋>[たず]ねられました。<カップ>[かっぷ]は<四個持>[よんこも]っています。<次>[つぎ]に、<サンドイッチ>[さんどいっち]を<何個持>[なんこも]っていますかと<尋>[たず]ねられました。<サンドイッチ>[さんどいっち]は<五個持>[ごこも]っています。",
+    "pairs": [
+      {
+        "part": "あ",
+        "phonetic": "あ"
+      },
+      {
+        "part": "る",
+        "phonetic": "る"
+      },
+      {
+        "part": "日",
+        "phonetic": "ひ"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "私",
+        "phonetic": "わたし"
+      },
+      {
+        "part": "は",
+        "phonetic": "は"
+      },
+      {
+        "part": "青",
+        "phonetic": "あお"
+      },
+      {
+        "part": "い",
+        "phonetic": "い"
+      },
+      {
+        "part": "シャツ",
+        "phonetic": "しゃつ"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "赤",
+        "phonetic": "あか"
+      },
+      {
+        "part": "い",
+        "phonetic": "い"
+      },
+      {
+        "part": "シャツ",
+        "phonetic": "しゃつ"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "緑",
+        "phonetic": "みどり"
+      },
+      {
+        "part": "の",
+        "phonetic": "の"
+      },
+      {
+        "part": "T",
+        "phonetic": "T"
+      },
+      {
+        "part": "シャツ",
+        "phonetic": "しゃつ"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "黄色",
+        "phonetic": "きいろ"
+      },
+      {
+        "part": "の",
+        "phonetic": "の"
+      },
+      {
+        "part": "T",
+        "phonetic": "T"
+      },
+      {
+        "part": "シャツ",
+        "phonetic": "しゃつ"
+      },
+      {
+        "part": "を",
+        "phonetic": "を"
+      },
+      {
+        "part": "持",
+        "phonetic": "も"
+      },
+      {
+        "part": "っ",
+        "phonetic": "っ"
+      },
+      {
+        "part": "て",
+        "phonetic": "て"
+      },
+      {
+        "part": "い",
+        "phonetic": "い"
+      },
+      {
+        "part": "ま",
+        "phonetic": "ま"
+      },
+      {
+        "part": "し",
+        "phonetic": "し"
+      },
+      {
+        "part": "た",
+        "phonetic": "た"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "そ",
+        "phonetic": "そ"
+      },
+      {
+        "part": "し",
+        "phonetic": "し"
+      },
+      {
+        "part": "て",
+        "phonetic": "て"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "私",
+        "phonetic": "わたし"
+      },
+      {
+        "part": "は",
+        "phonetic": "は"
+      },
+      {
+        "part": "カップ",
+        "phonetic": "かっぷ"
+      },
+      {
+        "part": "を",
+        "phonetic": "を"
+      },
+      {
+        "part": "何個持",
+        "phonetic": "なんこも"
+      },
+      {
+        "part": "っ",
+        "phonetic": "っ"
+      },
+      {
+        "part": "て",
+        "phonetic": "て"
+      },
+      {
+        "part": "い",
+        "phonetic": "い"
+      },
+      {
+        "part": "ま",
+        "phonetic": "ま"
+      },
+      {
+        "part": "す",
+        "phonetic": "す"
+      },
+      {
+        "part": "か",
+        "phonetic": "か"
+      },
+      {
+        "part": "と",
+        "phonetic": "と"
+      },
+      {
+        "part": "尋",
+        "phonetic": "たず"
+      },
+      {
+        "part": "ね",
+        "phonetic": "ね"
+      },
+      {
+        "part": "ら",
+        "phonetic": "ら"
+      },
+      {
+        "part": "れ",
+        "phonetic": "れ"
+      },
+      {
+        "part": "ま",
+        "phonetic": "ま"
+      },
+      {
+        "part": "し",
+        "phonetic": "し"
+      },
+      {
+        "part": "た",
+        "phonetic": "た"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "カップ",
+        "phonetic": "かっぷ"
+      },
+      {
+        "part": "は",
+        "phonetic": "は"
+      },
+      {
+        "part": "四個持",
+        "phonetic": "よんこも"
+      },
+      {
+        "part": "っ",
+        "phonetic": "っ"
+      },
+      {
+        "part": "て",
+        "phonetic": "て"
+      },
+      {
+        "part": "い",
+        "phonetic": "い"
+      },
+      {
+        "part": "ま",
+        "phonetic": "ま"
+      },
+      {
+        "part": "す",
+        "phonetic": "す"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "次",
+        "phonetic": "つぎ"
+      },
+      {
+        "part": "に",
+        "phonetic": "に"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "サンドイッチ",
+        "phonetic": "さんどいっち"
+      },
+      {
+        "part": "を",
+        "phonetic": "を"
+      },
+      {
+        "part": "何個持",
+        "phonetic": "なんこも"
+      },
+      {
+        "part": "っ",
+        "phonetic": "っ"
+      },
+      {
+        "part": "て",
+        "phonetic": "て"
+      },
+      {
+        "part": "い",
+        "phonetic": "い"
+      },
+      {
+        "part": "ま",
+        "phonetic": "ま"
+      },
+      {
+        "part": "す",
+        "phonetic": "す"
+      },
+      {
+        "part": "か",
+        "phonetic": "か"
+      },
+      {
+        "part": "と",
+        "phonetic": "と"
+      },
+      {
+        "part": "尋",
+        "phonetic": "たず"
+      },
+      {
+        "part": "ね",
+        "phonetic": "ね"
+      },
+      {
+        "part": "ら",
+        "phonetic": "ら"
+      },
+      {
+        "part": "れ",
+        "phonetic": "れ"
+      },
+      {
+        "part": "ま",
+        "phonetic": "ま"
+      },
+      {
+        "part": "し",
+        "phonetic": "し"
+      },
+      {
+        "part": "た",
+        "phonetic": "た"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "サンドイッチ",
+        "phonetic": "さんどいっち"
+      },
+      {
+        "part": "は",
+        "phonetic": "は"
+      },
+      {
+        "part": "五個持",
+        "phonetic": "ごこも"
+      },
+      {
+        "part": "っ",
+        "phonetic": "っ"
+      },
+      {
+        "part": "て",
+        "phonetic": "て"
+      },
+      {
+        "part": "い",
+        "phonetic": "い"
+      },
+      {
+        "part": "ま",
+        "phonetic": "ま"
+      },
+      {
+        "part": "す",
+        "phonetic": "す"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      }
+    ]
+  },
+  "en": {
+    "full": "One day, I had a blue shirt, a red shirt, a green T-shirt, and a yellow T-shirt. Then, I was asked how many cups I had. I had four cups. Next, I was asked how many sandwiches I had. I had five sandwiches.",
+    "pairs": [
+      {
+        "part": "One",
+        "phonetic": "wʌn"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "day",
+        "phonetic": "deɪ"
+      },
+      {
+        "part": ",",
+        "phonetic": ","
+      },
+      {
+        "part": "I",
+        "phonetic": "aɪ"
+      },
+      {
+        "part": "had",
+        "phonetic": "hæd"
+      },
+      {
+        "part": "a",
+        "phonetic": "ə"
+      },
+      {
+        "part": "blue",
+        "phonetic": "bluː"
+      },
+      {
+        "part": "shirt",
+        "phonetic": "ʃɜːrt"
+      },
+      {
+        "part": ",",
+        "phonetic": ","
+      },
+      {
+        "part": "a",
+        "phonetic": "ə"
+      },
+      {
+        "part": "red",
+        "phonetic": "rɛd"
+      },
+      {
+        "part": "shirt",
+        "phonetic": "ʃɜːrt"
+      },
+      {
+        "part": ",",
+        "phonetic": ","
+      },
+      {
+        "part": "a",
+        "phonetic": "ə"
+      },
+      {
+        "part": "green",
+        "phonetic": "griːn"
+      },
+      {
+        "part": "T-shirt",
+        "phonetic": "ˈtiː ʃɜːrt"
+      },
+      {
+        "part": ",",
+        "phonetic": ","
+      },
+      {
+        "part": "and",
+        "phonetic": "ænd"
+      },
+      {
+        "part": "a",
+        "phonetic": "ə"
+      },
+      {
+        "part": "yellow",
+        "phonetic": "ˈjɛloʊ"
+      },
+      {
+        "part": "T-shirt",
+        "phonetic": "ˈtiː ʃɜːrt"
+      },
+      {
+        "part": ".",
+        "phonetic": "."
+      },
+      {
+        "part": "Then",
+        "phonetic": "ðɛn"
+      },
+      {
+        "part": ",",
+        "phonetic": ","
+      },
+      {
+        "part": "I",
+        "phonetic": "aɪ"
+      },
+      {
+        "part": "was",
+        "phonetic": "wəz"
+      },
+      {
+        "part": "asked",
+        "phonetic": "æskt"
+      },
+      {
+        "part": "how",
+        "phonetic": "haʊ"
+      },
+      {
+        "part": "many",
+        "phonetic": "ˈmɛni"
+      },
+      {
+        "part": "cups",
+        "phonetic": "kʌps"
+      },
+      {
+        "part": "I",
+        "phonetic": "aɪ"
+      },
+      {
+        "part": "had",
+        "phonetic": "hæd"
+      },
+      {
+        "part": "four",
+        "phonetic": "fɔːr"
+      },
+      {
+        "part": "cups",
+        "phonetic": "kʌps"
+      },
+      {
+        "part": ".",
+        "phonetic": "."
+      },
+      {
+        "part": "Next",
+        "phonetic": "nɛkst"
+      },
+      {
+        "part": ",",
+        "phonetic": ","
+      },
+      {
+        "part": "I",
+        "phonetic": "aɪ"
+      },
+      {
+        "part": "was",
+        "phonetic": "wəz"
+      },
+      {
+        "part": "asked",
+        "phonetic": "æskt"
+      },
+      {
+        "part": "how",
+        "phonetic": "haʊ"
+      },
+      {
+        "part": "many",
+        "phonetic": "ˈmɛni"
+      },
+      {
+        "part": "sandwiches",
+        "phonetic": "ˈsændwɪʧɪz"
+      },
+      {
+        "part": "I",
+        "phonetic": "aɪ"
+      },
+      {
+        "part": "had",
+        "phonetic": "hæd"
+      },
+      {
+        "part": "five",
+        "phonetic": "faɪv"
+      },
+      {
+        "part": "sandwiches",
+        "phonetic": "ˈsændwɪʧɪz"
+      },
+      {
+        "part": ".",
+        "phonetic": "."
+      }
+    ]
+  },
+  "ar": {
+    "full": "في يوم ما، كان لدي قميص أزرق، وقميص أحمر، وتيشرت أخضر، وتيشرت أصفر. ثم سُئلت عن عدد الأكواب التي كانت لدي. كان لدي أربعة أكواب. بعد ذلك، سُئلت عن عدد السندويشات التي كانت لدي. كان لدي خمسة سندويشات.",
+    "pairs": [
+      {
+        "part": "في",
+        "phonetic": "fee"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "يوم",
+        "phonetic": "yawm"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "ما،",
+        "phonetic": "maa,"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "كان",
+        "phonetic": "kaan"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "لدي",
+        "phonetic": "ladi"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "قميص",
+        "phonetic": "qamees"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "أزرق،",
+        "phonetic": "'azraq,"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "وقميص",
+        "phonetic": "waqamees"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "أحمر،",
+        "phonetic": "ahmar,"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "وتيشرت",
+        "phonetic": "watishirt"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "أخضر،",
+        "phonetic": "akhthar,"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "وتيشرت",
+        "phonetic": "watishirt"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "أصفر.",
+        "phonetic": "asfar."
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "ثم",
+        "phonetic": "thumma"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "سُئلت",
+        "phonetic": "su'iltu"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "عن",
+        "phonetic": "'an"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "عدد",
+        "phonetic": "adad"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "الأكواب",
+        "phonetic": "al'akwab"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "التي",
+        "phonetic": "allatee"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "كانت",
+        "phonetic": "kaanat"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "لدي.",
+        "phonetic": "ladi."
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "كان",
+        "phonetic": "kaan"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "لدي",
+        "phonetic": "ladi"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "أربعة",
+        "phonetic": "arba'ah"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "أكواب.",
+        "phonetic": "akwab."
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "بعد",
+        "phonetic": "ba'd"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "ذلك،",
+        "phonetic": "thalika,"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "سُئلت",
+        "phonetic": "su'iltu"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "عن",
+        "phonetic": "'an"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "عدد",
+        "phonetic": "adad"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "السندويشات",
+        "phonetic": "alsandaweechat"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "التي",
+        "phonetic": "allatee"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "كانت",
+        "phonetic": "kaanat"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "لدي.",
+        "phonetic": "ladi."
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "كان",
+        "phonetic": "kaan"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "لدي",
+        "phonetic": "ladi"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "خمسة",
+        "phonetic": "khamsah"
+      },
+      {
+        "part": " ",
+        "phonetic": " "
+      },
+      {
+        "part": "سندويشات.",
+        "phonetic": "sandaweechat."
+      }
+    ]
+  },
+  "zh": {
+    "full": "有一天，我有一件蓝色的衬衫、一件红色的衬衫、一件绿色的T恤和一件黄色的T恤。然后，有人问我有多少个杯子。我有四个杯子。接下来，有人问我有多少个三明治。我有五个三明治。",
+    "pairs": [
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "一",
+        "phonetic": "yī"
+      },
+      {
+        "part": "天",
+        "phonetic": "tiān"
+      },
+      {
+        "part": "，",
+        "phonetic": ""
+      },
+      {
+        "part": "我",
+        "phonetic": "wǒ"
+      },
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "一",
+        "phonetic": "yī"
+      },
+      {
+        "part": "件",
+        "phonetic": "jiàn"
+      },
+      {
+        "part": "蓝色",
+        "phonetic": "lán sè"
+      },
+      {
+        "part": "的",
+        "phonetic": "de"
+      },
+      {
+        "part": "衬衫",
+        "phonetic": "chèn shān"
+      },
+      {
+        "part": "、",
+        "phonetic": ""
+      },
+      {
+        "part": "一",
+        "phonetic": "yī"
+      },
+      {
+        "part": "件",
+        "phonetic": "jiàn"
+      },
+      {
+        "part": "红色",
+        "phonetic": "hóng sè"
+      },
+      {
+        "part": "的",
+        "phonetic": "de"
+      },
+      {
+        "part": "衬衫",
+        "phonetic": "chèn shān"
+      },
+      {
+        "part": "、",
+        "phonetic": ""
+      },
+      {
+        "part": "一",
+        "phonetic": "yī"
+      },
+      {
+        "part": "件",
+        "phonetic": "jiàn"
+      },
+      {
+        "part": "绿色",
+        "phonetic": "lǜ sè"
+      },
+      {
+        "part": "的",
+        "phonetic": "de"
+      },
+      {
+        "part": "T恤",
+        "phonetic": "T xù"
+      },
+      {
+        "part": "和",
+        "phonetic": "hé"
+      },
+      {
+        "part": "一",
+        "phonetic": "yī"
+      },
+      {
+        "part": "件",
+        "phonetic": "jiàn"
+      },
+      {
+        "part": "黄色",
+        "phonetic": "huáng sè"
+      },
+      {
+        "part": "的",
+        "phonetic": "de"
+      },
+      {
+        "part": "T恤",
+        "phonetic": "T xù"
+      },
+      {
+        "part": "。",
+        "phonetic": ""
+      },
+      {
+        "part": "然后",
+        "phonetic": "rán hòu"
+      },
+      {
+        "part": "，",
+        "phonetic": ""
+      },
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "人",
+        "phonetic": "rén"
+      },
+      {
+        "part": "问",
+        "phonetic": "wèn"
+      },
+      {
+        "part": "我",
+        "phonetic": "wǒ"
+      },
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "多少",
+        "phonetic": "duō shǎo"
+      },
+      {
+        "part": "个",
+        "phonetic": "gè"
+      },
+      {
+        "part": "杯子",
+        "phonetic": "bēi zi"
+      },
+      {
+        "part": "。",
+        "phonetic": ""
+      },
+      {
+        "part": "我",
+        "phonetic": "wǒ"
+      },
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "四",
+        "phonetic": "sì"
+      },
+      {
+        "part": "个",
+        "phonetic": "gè"
+      },
+      {
+        "part": "杯子",
+        "phonetic": "bēi zi"
+      },
+      {
+        "part": "。",
+        "phonetic": ""
+      },
+      {
+        "part": "接下来",
+        "phonetic": "jiē xià lái"
+      },
+      {
+        "part": "，",
+        "phonetic": ""
+      },
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "人",
+        "phonetic": "rén"
+      },
+      {
+        "part": "问",
+        "phonetic": "wèn"
+      },
+      {
+        "part": "我",
+        "phonetic": "wǒ"
+      },
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "多少",
+        "phonetic": "duō shǎo"
+      },
+      {
+        "part": "个",
+        "phonetic": "gè"
+      },
+      {
+        "part": "三明治",
+        "phonetic": "sān míng zhì"
+      },
+      {
+        "part": "。",
+        "phonetic": ""
+      },
+      {
+        "part": "我",
+        "phonetic": "wǒ"
+      },
+      {
+        "part": "有",
+        "phonetic": "yǒu"
+      },
+      {
+        "part": "五",
+        "phonetic": "wǔ"
+      },
+      {
+        "part": "个",
+        "phonetic": "gè"
+      },
+      {
+        "part": "三明治",
+        "phonetic": "sān míng zhì"
+      },
+      {
+        "part": "。",
+        "phonetic": ""
+      }
+    ]
+  },
+  "yue": {
+    "full": "有一日，我有件藍色嘅襯衫、件紅色嘅襯衫、件綠色嘅T恤同件黃色嘅T恤。跟住，有人問我有幾多個杯。我有四個杯。之後，有人問我有幾多個三文治。我有五個三文治。",
+    "pairs": [
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "一",
+        "phonetic": "jat1"
+      },
+      {
+        "part": "日",
+        "phonetic": "jat6"
+      },
+      {
+        "part": "，",
+        "phonetic": ","
+      },
+      {
+        "part": "我",
+        "phonetic": "ngo5"
+      },
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "件",
+        "phonetic": "gin6"
+      },
+      {
+        "part": "藍",
+        "phonetic": "laam4"
+      },
+      {
+        "part": "色",
+        "phonetic": "sik1"
+      },
+      {
+        "part": "嘅",
+        "phonetic": "ge3"
+      },
+      {
+        "part": "襯",
+        "phonetic": "chan4"
+      },
+      {
+        "part": "衫",
+        "phonetic": "saam1"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "件",
+        "phonetic": "gin6"
+      },
+      {
+        "part": "紅",
+        "phonetic": "hung4"
+      },
+      {
+        "part": "色",
+        "phonetic": "sik1"
+      },
+      {
+        "part": "嘅",
+        "phonetic": "ge3"
+      },
+      {
+        "part": "襯",
+        "phonetic": "chan4"
+      },
+      {
+        "part": "衫",
+        "phonetic": "saam1"
+      },
+      {
+        "part": "、",
+        "phonetic": "、"
+      },
+      {
+        "part": "件",
+        "phonetic": "gin6"
+      },
+      {
+        "part": "綠",
+        "phonetic": "luk6"
+      },
+      {
+        "part": "色",
+        "phonetic": "sik1"
+      },
+      {
+        "part": "嘅",
+        "phonetic": "ge3"
+      },
+      {
+        "part": "T",
+        "phonetic": "T"
+      },
+      {
+        "part": "恤",
+        "phonetic": "seot1"
+      },
+      {
+        "part": "同",
+        "phonetic": "tung4"
+      },
+      {
+        "part": "件",
+        "phonetic": "gin6"
+      },
+      {
+        "part": "黃",
+        "phonetic": "wong4"
+      },
+      {
+        "part": "色",
+        "phonetic": "sik1"
+      },
+      {
+        "part": "嘅",
+        "phonetic": "ge3"
+      },
+      {
+        "part": "T",
+        "phonetic": "T"
+      },
+      {
+        "part": "恤",
+        "phonetic": "seot1"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "跟",
+        "phonetic": "gan1"
+      },
+      {
+        "part": "住",
+        "phonetic": "zyu6"
+      },
+      {
+        "part": "，",
+        "phonetic": ","
+      },
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "人",
+        "phonetic": "jan4"
+      },
+      {
+        "part": "問",
+        "phonetic": "man6"
+      },
+      {
+        "part": "我",
+        "phonetic": "ngo5"
+      },
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "幾",
+        "phonetic": "gei2"
+      },
+      {
+        "part": "多",
+        "phonetic": "do1"
+      },
+      {
+        "part": "個",
+        "phonetic": "go3"
+      },
+      {
+        "part": "杯",
+        "phonetic": "bui1"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "我",
+        "phonetic": "ngo5"
+      },
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "四",
+        "phonetic": "sei3"
+      },
+      {
+        "part": "個",
+        "phonetic": "go3"
+      },
+      {
+        "part": "杯",
+        "phonetic": "bui1"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "之",
+        "phonetic": "zi1"
+      },
+      {
+        "part": "後",
+        "phonetic": "hau6"
+      },
+      {
+        "part": "，",
+        "phonetic": ","
+      },
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "人",
+        "phonetic": "jan4"
+      },
+      {
+        "part": "問",
+        "phonetic": "man6"
+      },
+      {
+        "part": "我",
+        "phonetic": "ngo5"
+      },
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "幾",
+        "phonetic": "gei2"
+      },
+      {
+        "part": "多",
+        "phonetic": "do1"
+      },
+      {
+        "part": "個",
+        "phonetic": "go3"
+      },
+      {
+        "part": "三",
+        "phonetic": "saam1"
+      },
+      {
+        "part": "文",
+        "phonetic": "man4"
+      },
+      {
+        "part": "治",
+        "phonetic": "zi6"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      },
+      {
+        "part": "我",
+        "phonetic": "ngo5"
+      },
+      {
+        "part": "有",
+        "phonetic": "jau5"
+      },
+      {
+        "part": "五",
+        "phonetic": "ng5"
+      },
+      {
+        "part": "個",
+        "phonetic": "go3"
+      },
+      {
+        "part": "三",
+        "phonetic": "saam1"
+      },
+      {
+        "part": "文",
+        "phonetic": "man4"
+      },
+      {
+        "part": "治",
+        "phonetic": "zi6"
+      },
+      {
+        "part": "。",
+        "phonetic": "。"
+      }
+    ]
+  }
+}

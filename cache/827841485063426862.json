@@ -1,0 +1,104 @@
+{
+    "prompt": "Given the yue sentence: \"有一日，我有件藍色嘅襯衫、件紅色嘅襯衫、件綠色嘅T恤同件黃色嘅T恤。跟住，有人問我有幾多個杯。我有四個杯。之後，有人問我有幾多個三文治。我有五個三文治。\", provide a jyutping breakdown for each word or character. Format the output in JSON structure as shown below:\n\n```json\n{\n  \"full\": \"{sentence}\",\n  \"pairs\": [\n    {\n      \"part\": \"Example word or character\",\n      \"phonetic\": \"Example phonetic representation\"\n    }\n  ]\n}\n```",
+    "response": {
+        "full": "有一日，我有件藍色嘅襯衫、件紅色嘅襯衫、件綠色嘅T恤同件黃色嘅T恤。跟住，有人問我有幾多個杯。我有四個杯。之後，有人問我有幾多個三文治。我有五個三文治。",
+        "pairs": [
+            {
+                "part": "有",
+                "phonetic": "jau5"
+            },
+            {
+                "part": "一",
+                "phonetic": "jat1"
+            },
+            {
+                "part": "日",
+                "phonetic": "jat6"
+            },
+            {
+                "part": "我",
+                "phonetic": "ngo5"
+            },
+            {
+                "part": "件",
+                "phonetic": "gin6"
+            },
+            {
+                "part": "藍",
+                "phonetic": "laam4"
+            },
+            {
+                "part": "色",
+                "phonetic": "sik1"
+            },
+            {
+                "part": "嘅",
+                "phonetic": "ge3"
+            },
+            {
+                "part": "襯衫",
+                "phonetic": "chan3 saam1"
+            },
+            {
+                "part": "紅",
+                "phonetic": "hung4"
+            },
+            {
+                "part": "綠",
+                "phonetic": "luk6"
+            },
+            {
+                "part": "T恤",
+                "phonetic": "T saam1"
+            },
+            {
+                "part": "同",
+                "phonetic": "tung4"
+            },
+            {
+                "part": "黃",
+                "phonetic": "wong4"
+            },
+            {
+                "part": "跟住",
+                "phonetic": "gan1 zyu6"
+            },
+            {
+                "part": "有人",
+                "phonetic": "jau5 jan4"
+            },
+            {
+                "part": "問",
+                "phonetic": "man6"
+            },
+            {
+                "part": "幾多",
+                "phonetic": "gei2 do1"
+            },
+            {
+                "part": "個",
+                "phonetic": "go3"
+            },
+            {
+                "part": "杯",
+                "phonetic": "bui1"
+            },
+            {
+                "part": "四",
+                "phonetic": "sei3"
+            },
+            {
+                "part": "之後",
+                "phonetic": "zi1 hau6"
+            },
+            {
+                "part": "三文治",
+                "phonetic": "saam1 man4 zi6"
+            },
+            {
+                "part": "五",
+                "phonetic": "ng5"
+            }
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "prompt": "Given this Japanese text: 青い \tシャツ\\\\nあおい\tシャツ\\\\naoi\tshatsu\\\\n赤い\tシャツ\\\\nあかい\tシャツ\\\\nakai\tshatsu\\\\n緑\tの\tTシャツ\\\\nみどり\tの \tTシャツ\\\\nmidori\tno\tTshatsu\\\\n黄色\tの\tTシャツ\\\\nきいろ\tの \tTシャツ\\\\nkiiro\tno\tTshatsu21\t カップ \tを \t何個 \t持って \tいますか。\\\\nカップ\tを \tなんこ \tもって \tいますか。\\\\nkappu\to\tnanko\tmotte\timasuka.\\\\n四個\t持って \tいます。\\\\nよんこ\tもって \tいます。\\\\nyonko\tmotte\timasu.\\\\nサンドイッチ \tを \t何個 \t持って \tいますか。\\\\nサンドイッチ \tを \tなんこ \tもって \tいますか。\\\\nsandoicchi \to\tnanko\tmotte\timasuka.\\\\n五個\t持って \tいます。\\\\nごこ\tもって \tいます。\\\\ngoko\tmotte\timasu.\n\nCould you write a daily used Japanese sentence (clean or rewrite), English, Arabic, Chinese, and Cantonese? The output should be in JSON format with sentences and phonetic pairs for each language.\n\n**JSON Format**:\n```json\n{\n  \"japanese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"english\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"arabic\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"phonetics\": \"\"\n      }\n    ]\n  },\n  \"chinese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"cantonese\": {\n    \"sentence\": \"\",\n    \"phonetics_pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "japanese": {
+            "sentence": "今日はいい天気ですね。",
+            "phonetics_pairs": [
+                {
+                    "part": "今日",
+                    "furigana": "きょう"
+                },
+                {
+                    "part": "いい",
+                    "furigana": "いい"
+                },
+                {
+                    "part": "天気",
+                    "furigana": "てんき"
+                },
+                {
+                    "part": "です",
+                    "furigana": "です"
+                },
+                {
+                    "part": "ね",
+                    "furigana": "ね"
+                }
+            ]
+        },
+        "english": {
+            "sentence": "The weather is nice today, isn't it?",
+            "phonetics_pairs": [
+                {
+                    "part": "The weather",
+                    "phonetics": "ðə 'wɛðər"
+                },
+                {
+                    "part": "is nice",
+                    "phonetics": "ɪz naɪs"
+                },
+                {
+                    "part": "today",
+                    "phonetics": "təˈdeɪ"
+                },
+                {
+                    "part": "isn't it",
+                    "phonetics": "ɪzn't ɪt"
+                }
+            ]
+        },
+        "arabic": {
+            "sentence": "الجو جميل اليوم, أليس كذلك؟",
+            "phonetics_pairs": [
+                {
+                    "part": "الجو",
+                    "phonetics": "al-jaw"
+                },
+                {
+                    "part": "جميل",
+                    "phonetics": "jamīl"
+                },
+                {
+                    "part": "اليوم",
+                    "phonetics": "alyawm"
+                },
+                {
+                    "part": "أليس",
+                    "phonetics": "alays"
+                },
+                {
+                    "part": "كذلك",
+                    "phonetics": "kadhālik"
+                }
+            ]
+        },
+        "chinese": {
+            "sentence": "今天天气很好，不是吗？",
+            "phonetics_pairs": [
+                {
+                    "part": "今天",
+                    "pinyin": "jīn tiān"
+                },
+                {
+                    "part": "天气",
+                    "pinyin": "tiān qì"
+                },
+                {
+                    "part": "很好",
+                    "pinyin": "hěn hǎo"
+                },
+                {
+                    "part": "不是吗",
+                    "pinyin": "bú shì ma"
+                }
+            ]
+        },
+        "cantonese": {
+            "sentence": "今日天氣好靚，唔係咩？",
+            "phonetics_pairs": [
+                {
+                    "part": "今日",
+                    "jyutping": "gam1 jat6"
+                },
+                {
+                    "part": "天氣",
+                    "jyutping": "tin1 hei3"
+                },
+                {
+                    "part": "好靚",
+                    "jyutping": "hou2 leng3"
+                },
+                {
+                    "part": "唔係咩",
+                    "jyutping": "m4 hai6 me1"
+                }
+            ]
+        }
+    }
+}

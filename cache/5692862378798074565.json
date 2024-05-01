@@ -1,0 +1,130 @@
+{
+    "prompt": "Based on this Japanese text from Rosetta Stone: 青い \tシャツ\\\\nあおい\tシャツ\\\\naoi\tshatsu\\\\n赤い\tシャツ\\\\nあかい\tシャツ\\\\nakai\tshatsu\\\\n緑\tの\tTシャツ\\\\nみどり\tの \tTシャツ\\\\nmidori\tno\tTshatsu\\\\n黄色\tの\tTシャツ\\\\nきいろ\tの \tTシャツ\\\\nkiiro\tno\tTshatsu21\t カップ \tを \t何個 \t持って \tいますか。\\\\nカップ\tを \tなんこ \tもって \tいますか。\\\\nkappu\to\tnanko\tmotte\timasuka.\\\\n四個\t持って \tいます。\\\\nよんこ\tもって \tいます。\\\\nyonko\tmotte\timasu.\\\\nサンドイッチ \tを \t何個 \t持って \tいますか。\\\\nサンドイッチ \tを \tなんこ \tもって \tいますか。\\\\nsandoicchi \to\tnanko\tmotte\timasuka.\\\\n五個\t持って \tいます。\\\\nごこ\tもって \tいます。\\\\ngoko\tmotte\timasu.\n\n. To help me learn languages, could you provide a full Japanese story and tranlate it to English, Arabic, Chinese, and Cantonese with pronunciation? Breakdown the formulated sentence into a complete list phonetic pairs for each character or word in  each language.The output should be in JSON format: \n\n```json\n{\n  \"ja\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"furigana\": \"\"\n      }\n    ]\n  },\n  \"en\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"phon\": \"\"\n      }\n    ]\n  },\n  \"ar\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"phon\": \"\"\n      }\n    ]\n  },\n  \"zh\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"pinyin\": \"\"\n      }\n    ]\n  },\n  \"yue\": {\n    \"full\": \"\",\n    \"pairs\": [\n      {\n        \"part\": \"\",\n        \"jyutping\": \"\"\n      }\n    ]\n  }\n}\n```",
+    "response": {
+        "ja": {
+            "full": "公園で犬と散歩する。",
+            "pairs": [
+                {
+                    "part": "公園",
+                    "furigana": "こうえん"
+                },
+                {
+                    "part": "で",
+                    "furigana": "で"
+                },
+                {
+                    "part": "犬",
+                    "furigana": "いぬ"
+                },
+                {
+                    "part": "と",
+                    "furigana": "と"
+                },
+                {
+                    "part": "散歩",
+                    "furigana": "さんぽ"
+                },
+                {
+                    "part": "する",
+                    "furigana": "する"
+                }
+            ]
+        },
+        "en": {
+            "full": "Walking the dog in the park.",
+            "pairs": [
+                {
+                    "part": "Walking",
+                    "phon": "'wɔːkɪŋ"
+                },
+                {
+                    "part": "the",
+                    "phon": "ðə"
+                },
+                {
+                    "part": "dog",
+                    "phon": "dɒg"
+                },
+                {
+                    "part": "in",
+                    "phon": "ɪn"
+                },
+                {
+                    "part": "the",
+                    "phon": "ðə"
+                },
+                {
+                    "part": "park",
+                    "phon": "pɑːk"
+                }
+            ]
+        },
+        "ar": {
+            "full": "التنزه بالكلب في الحديقة.",
+            "pairs": [
+                {
+                    "part": "التنزه",
+                    "phon": "al-tanazzah"
+                },
+                {
+                    "part": "بالكلب",
+                    "phon": "bi-al-kalb"
+                },
+                {
+                    "part": "في",
+                    "phon": "fī"
+                },
+                {
+                    "part": "الحديقة",
+                    "phon": "al-hadiqah"
+                }
+            ]
+        },
+        "zh": {
+            "full": "在公园遛狗。",
+            "pairs": [
+                {
+                    "part": "在",
+                    "pinyin": "zài"
+                },
+                {
+                    "part": "公园",
+                    "pinyin": "gōng yuán"
+                },
+                {
+                    "part": "遛",
+                    "pinyin": "liù"
+                },
+                {
+                    "part": "狗",
+                    "pinyin": "gǒu"
+                }
+            ]
+        },
+        "yue": {
+            "full": "喺公園度行狗。",
+            "pairs": [
+                {
+                    "part": "喺",
+                    "jyutping": "hai2"
+                },
+                {
+                    "part": "公園",
+                    "jyutping": "gung1 yun2"
+                },
+                {
+                    "part": "度",
+                    "jyutping": "dou6"
+                },
+                {
+                    "part": "行",
+                    "jyutping": "haang4"
+                },
+                {
+                    "part": "狗",
+                    "jyutping": "gau2"
+                }
+            ]
+        }
+    }
+}
